@@ -20,3 +20,8 @@ opencv-python
 sudo pip install -r requirements.txt
 
 sudo pip install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
+
+
+# From ObjectDetection/models/research/
+sudo protoc object_detection/protos/*.proto --python_out=.
+export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
