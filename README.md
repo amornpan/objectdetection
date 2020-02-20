@@ -19,4 +19,4 @@ opencv-python
 ## install requirements.txt
 sudo pip install -r requirements.txt
 
-pip install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
+sudo pip install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
